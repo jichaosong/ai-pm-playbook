@@ -1,0 +1,1 @@
+../../../02-prd-templates/rag-prd-template.md

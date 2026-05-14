@@ -1,0 +1,1 @@
+../../../06-ai-pm-career/portfolio-building-guide.md

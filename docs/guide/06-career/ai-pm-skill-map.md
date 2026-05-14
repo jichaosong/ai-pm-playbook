@@ -1,0 +1,1 @@
+../../../06-ai-pm-career/ai-pm-skill-map.md

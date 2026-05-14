@@ -1,0 +1,29 @@
+{
+  "name": "ai-pm-playbook",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "> **从产品经理到 AI 产品架构师的实战指南**",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prodthinkpm/ai-pm-playbook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prodthinkpm/ai-pm-playbook/issues"
+  },
+  "homepage": "https://github.com/prodthinkpm/ai-pm-playbook#readme",
+  "devDependencies": {
+    "@types/node": "^25.7.0",
+    "typescript": "^6.0.3",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.34"
+  }
+}

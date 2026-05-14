@@ -1,0 +1,1 @@
+../../../02-prd-templates/coding-agent-prd-template.md
