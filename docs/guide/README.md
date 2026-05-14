@@ -78,4 +78,4 @@ flowchart LR
 
 ## 📖 完整索引
 
-查看 **[INDEX 总索引](/guide/index)** 获取全部 29 个文档的详细信息。
+查看 **[INDEX 总索引](/guide/index)** 获取全部 46 个专题文档的详细信息。

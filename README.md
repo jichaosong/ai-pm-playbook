@@ -29,7 +29,7 @@
 
 ## 📖 概述
 
-**AI PM Playbook** 是一份面向 AI 时代产品经理的实战知识库，涵盖 7 大模块、30 个文档：
+**AI PM Playbook** 是一份面向 AI 时代产品经理的实战知识库，涵盖 11 大模块、46 个文档：
 
 ### 📐 [01 — AI 产品框架](./01-ai-product-framework/)
 分析 AI 产品的结构化方法论：
@@ -48,7 +48,8 @@
 
 ### 📊 [03 — 案例研究](./03-case-studies/)
 真实产品从 0 到 1 的深度拆解：
-- [`openharness-case-study.md`](./03-case-studies/openharness-case-study.md) — AI 评估平台
+- [`appsignal-case-study.md`](./03-case-studies/appsignal-case-study.md) — 隐私政策解读与风险评分
+- [`openfooddata-case-study.md`](./03-case-studies/openfooddata-case-study.md) — 营养数据平台方法论
 - [`aurora-agentos-case-study.md`](./03-case-studies/aurora-agentos-case-study.md) — Agent 操作系统
 - [`falcon-case-study.md`](./03-case-studies/falcon-case-study.md) — 推理优化平台
 - [`autonomous-driving-data-platform-case-study.md`](./03-case-studies/autonomous-driving-data-platform-case-study.md) — 自动驾驶数据平台
@@ -63,6 +64,7 @@
 ### 🏗️ [05 — Agent 产品设计](./05-agent-product-design/)
 下一代 AI 产品的核心：
 - [`agent-loop.md`](./05-agent-product-design/agent-loop.md)
+- [`ai-tool-taxonomy-and-agent-loop.md`](./05-agent-product-design/ai-tool-taxonomy-and-agent-loop.md)
 - [`memory-design.md`](./05-agent-product-design/memory-design.md)
 - [`permission-and-approval.md`](./05-agent-product-design/permission-and-approval.md)
 - [`multi-agent-workflow.md`](./05-agent-product-design/multi-agent-workflow.md)
@@ -73,6 +75,7 @@
 - [`ai-pm-roadmap.md`](./06-ai-pm-career/ai-pm-roadmap.md)
 - [`ai-pm-skill-map.md`](./06-ai-pm-career/ai-pm-skill-map.md)
 - [`portfolio-building-guide.md`](./06-ai-pm-career/portfolio-building-guide.md)
+- [`pm-toolkit.md`](./06-ai-pm-career/pm-toolkit.md)
 
 ### ✨ [07 — 提示词工程](./07-prompts/)
 提升效率的 Prompts：
@@ -128,11 +131,15 @@ AI 产品的开发迭代方法论：
 |------|:------:|:----:|-------------|
 | 01 产品框架 | 4 | ⭐⭐ | 立项前 |
 | 02 PRD 模板 | 5 | ⭐ | 写文档时 |
-| 03 案例研究 | 4 | ⭐⭐⭐ | 决策参考 |
+| 03 案例研究 | 5 | ⭐⭐⭐ | 决策参考 |
 | 04 评估体系 | 4 | ⭐⭐ | 上线前后 |
-| 05 Agent 设计 | 5 | ⭐⭐⭐ | 专项深挖 |
-| 06 职业发展 | 3 | ⭐ | 规划阶段 |
+| 05 Agent 设计 | 6 | ⭐⭐⭐ | 专项深挖 |
+| 06 职业发展 | 4 | ⭐ | 规划阶段 |
 | 07 Prompts | 4 | ⭐ | 日常使用 |
+| 08 用户研究 | 3 | ⭐⭐ | 需求验证 |
+| 09 商业化 | 3 | ⭐⭐ | 定价与成本 |
+| 10 安全合规 | 4 | ⭐⭐ | 上线前审核 |
+| 11 开发流程 | 4 | ⭐⭐ | 迭代管理 |
 
 ---
 
