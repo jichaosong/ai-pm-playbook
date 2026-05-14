@@ -94,6 +94,7 @@ export default defineConfig({
             { text: '成长路线图', link: '/guide/06-career/ai-pm-roadmap' },
             { text: '技能图谱', link: '/guide/06-career/ai-pm-skill-map' },
             { text: '作品集指南', link: '/guide/06-career/portfolio-building-guide' },
+            { text: 'PM 实操工具包', link: '/guide/06-career/pm-toolkit' },
           ],
         },
         {
@@ -103,6 +104,40 @@ export default defineConfig({
             { text: '用户研究 Prompts', link: '/guide/07-prompts/user-research-prompts' },
             { text: '路线图 Prompts', link: '/guide/07-prompts/roadmap-prompts' },
             { text: '评估 Prompts', link: '/guide/07-prompts/evaluation-prompts' },
+          ],
+        },
+        {
+          text: '08 — 用户研究',
+          items: [
+            { text: '用户研究方法论', link: '/guide/08-user-research/user-research-methods' },
+            { text: 'AI 需求验证', link: '/guide/08-user-research/demand-validation' },
+            { text: '用户期望管理', link: '/guide/08-user-research/expectation-management' },
+          ],
+        },
+        {
+          text: '09 — 商业化',
+          items: [
+            { text: 'AI 产品定价策略', link: '/guide/09-monetization/pricing-strategies' },
+            { text: 'Token 经济学', link: '/guide/09-monetization/token-economics' },
+            { text: 'B端 vs C端设计', link: '/guide/09-monetization/b2b-vs-consumer' },
+          ],
+        },
+        {
+          text: '10 — 安全合规',
+          items: [
+            { text: '内容安全与幻觉管控', link: '/guide/10-compliance/content-safety-framework' },
+            { text: '数据隐私与合规', link: '/guide/10-compliance/privacy-compliance' },
+            { text: '审计追踪与透明度', link: '/guide/10-compliance/ai-audit-transparency' },
+            { text: 'AI 治理检查清单', link: '/guide/10-compliance/ai-governance-checklist' },
+          ],
+        },
+        {
+          text: '11 — 开发流程',
+          items: [
+            { text: '从 0 到 1 全流程', link: '/guide/11-dev-process/product-lifecycle-guide' },
+            { text: 'Prompt 工程管理', link: '/guide/11-dev-process/prompt-management' },
+            { text: 'PM 与工程师协作', link: '/guide/11-dev-process/pm-mle-collaboration' },
+            { text: '模型升级与灰度策略', link: '/guide/11-dev-process/model-iteration-playbook' },
           ],
         },
       ],

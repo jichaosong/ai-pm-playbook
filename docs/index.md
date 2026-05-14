@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "AI PM Playbook"
   text: "从产品经理到 AI 产品架构师"
-  tagline: 框架 · PRD 模板 · 案例研究 · 评估体系 · Agent 设计 · 职业发展 · Prompts
+  tagline: 框架 · PRD 模板 · 案例研究 · 评估体系 · Agent 设计 · 职业发展 · 用户研究 · 商业化 · 安全合规 · 开发流程 · Prompts
   image:
     src: /favicon.svg
     alt: AI PM Playbook
@@ -37,8 +37,20 @@ features:
     details: Agent 循环、记忆架构、权限审批、多 Agent 编排、可观测性
     link: /guide/05-agent-design/agent-loop
   - title: 🎯 AI PM 职业发展
-    details: 成长路线图、技能图谱、作品集构建指南
+    details: 成长路线图、技能图谱、作品集构建指南、实操工具包
     link: /guide/06-career/ai-pm-roadmap
+  - title: 🔬 用户研究
+    details: AI 产品用户研究方法论、需求验证框架、用户期望管理策略
+    link: /guide/08-user-research/user-research-methods
+  - title: 💰 商业化
+    details: AI 产品定价策略、Token 经济学、B端 vs C端产品设计
+    link: /guide/09-monetization/pricing-strategies
+  - title: 🛡️ 安全合规
+    details: 内容安全与幻觉管控、数据隐私合规、AI 审计透明度、治理清单
+    link: /guide/10-compliance/content-safety-framework
+  - title: 🔄 开发流程
+    details: 从 0 到 1 全流程、Prompt 工程管理、PM与工程师协作、模型升级灰度
+    link: /guide/11-dev-process/product-lifecycle-guide
   - title: ✨ 提示词工程
     details: 写 PRD / 用户研究 / 路线图 / 评估的专属 Prompts
     link: /guide/07-prompts/prd-prompts

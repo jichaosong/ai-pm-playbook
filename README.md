@@ -81,6 +81,32 @@
 - [`roadmap-prompts.md`](./07-prompts/roadmap-prompts.md)
 - [`evaluation-prompts.md`](./07-prompts/evaluation-prompts.md)
 
+### 🔬 [08 — 用户研究](./08-user-research/)
+AI 产品的用户研究方法和需求验证：
+- [`user-research-methods.md`](./08-user-research/user-research-methods.md) — AI 产品的用户研究方法论
+- [`demand-validation.md`](./08-user-research/demand-validation.md) — AI 功能需求验证框架
+- [`expectation-management.md`](./08-user-research/expectation-management.md) — 用户期望管理策略
+
+### 💰 [09 — 商业化](./09-monetization/)
+AI 产品的定价和成本策略：
+- [`pricing-strategies.md`](./09-monetization/pricing-strategies.md) — AI 产品定价模型选型
+- [`token-economics.md`](./09-monetization/token-economics.md) — Token 经济学与成本优化
+- [`b2b-vs-consumer.md`](./09-monetization/b2b-vs-consumer.md) — B端 vs C端 AI 产品设计
+
+### 🛡️ [10 — 安全合规](./10-compliance/)
+AI 产品的内容安全和合规保障：
+- [`content-safety-framework.md`](./10-compliance/content-safety-framework.md) — 内容安全与幻觉管控
+- [`privacy-compliance.md`](./10-compliance/privacy-compliance.md) — 数据隐私与合规
+- [`ai-audit-transparency.md`](./10-compliance/ai-audit-transparency.md) — 审计追踪与透明度
+- [`ai-governance-checklist.md`](./10-compliance/ai-governance-checklist.md) — AI 治理检查清单
+
+### 🔄 [11 — 开发流程](./11-dev-process/)
+AI 产品的开发迭代方法论：
+- [`product-lifecycle-guide.md`](./11-dev-process/product-lifecycle-guide.md) — 从 0 到 1 全流程
+- [`prompt-management.md`](./11-dev-process/prompt-management.md) — Prompt 工程管理
+- [`pm-mle-collaboration.md`](./11-dev-process/pm-mle-collaboration.md) — PM 与工程师协作
+- [`model-iteration-playbook.md`](./11-dev-process/model-iteration-playbook.md) — 模型升级与灰度策略
+
 ---
 
 ## 🎯 核心理念

@@ -29,7 +29,8 @@
 
 | 文件 | 行业 | 产品类型 | 核心专题 |
 |------|------|---------|---------|
-| [`openharness-case-study.md`](./03-case-studies/openharness-case-study.md) | AI 基础设施 | 评估平台 | 评估流程、评分系统、数据集管理 |
+| [`appsignal-case-study.md`](./03-case-studies/appsignal-case-study.md) | 隐私合规 | AI 内容平台 | AI 分析 + 人工审核、隐私政策结构化、风险评分 |
+| [`openfooddata-case-study.md`](./03-case-studies/openfooddata-case-study.md) | 营养健康 | 数据平台 | 多源数据聚合、评分方法论、搜索范式、数据质量体系 |
 | [`aurora-agentos-case-study.md`](./03-case-studies/aurora-agentos-case-study.md) | AI 基础设施 | Agent 操作系统 | Agent 编排、记忆架构、可观测性 |
 | [`falcon-case-study.md`](./03-case-studies/falcon-case-study.md) | AI 基础设施 | 推理优化 | 量化策略、部署方案、成本优化 |
 | [`autonomous-driving-data-platform-case-study.md`](./03-case-studies/autonomous-driving-data-platform-case-study.md) | 自动驾驶 | 数据平台 | 数据采集、AI 标注、仿真、版本管理 |
@@ -60,6 +61,7 @@
 | [`ai-pm-roadmap.md`](./06-ai-pm-career/ai-pm-roadmap.md) | L1-L4 四阶段成长路线图 | 入门/转行 PM |
 | [`ai-pm-skill-map.md`](./06-ai-pm-career/ai-pm-skill-map.md) | 硬技能/软技能/工具技能图谱 | 所有 AI PM |
 | [`portfolio-building-guide.md`](./06-ai-pm-career/portfolio-building-guide.md) | 作品集模板、STAR 升级版 | 求职/跳槽 PM |
+| [`pm-toolkit.md`](./06-ai-pm-career/pm-toolkit.md) | 立项 Checklist、CEO 沟通框架、Demo 技巧 | 日常实操 |
 
 ### 07 — 提示词工程
 
@@ -70,17 +72,54 @@
 | [`roadmap-prompts.md`](./07-prompts/roadmap-prompts.md) | 8 个 | 路线图规划、OKR 拆解、优先级排序 |
 | [`evaluation-prompts.md`](./07-prompts/evaluation-prompts.md) | 10 个 | LLM 评估、Agent 评估、A/B 测试 |
 
+### 08 — 用户研究
+
+| 文件 | 核心内容 | 解决什么问题 |
+|------|---------|-------------|
+| [`user-research-methods.md`](./08-user-research/user-research-methods.md) | AI 产品用户研究方法论、可用性测试、Beta 设计 | 传统方法在 AI 产品中怎么改 |
+| [`demand-validation.md`](./08-user-research/demand-validation.md) | Fake Door Test、Concierge MVP、需求评估矩阵 | 用户到底需不需要这个 AI 功能 |
+| [`expectation-management.md`](./08-user-research/expectation-management.md) | 能力边界披露、置信度视觉化、失败兜底设计 | 怎么不让用户对 AI 期望过高 |
+
+### 09 — 商业化
+
+| 文件 | 核心内容 | 解决什么问题 |
+|------|---------|-------------|
+| [`pricing-strategies.md`](./09-monetization/pricing-strategies.md) | 4 种定价模式、免费层设计、企业定价 | AI 产品该怎么收费 |
+| [`token-economics.md`](./09-monetization/token-economics.md) | 成本拆解、模型分级、缓存策略、限速设计 | 推理成本怎么控制不烧钱 |
+| [`b2b-vs-consumer.md`](./09-monetization/b2b-vs-consumer.md) | B端 vs C端差异、私有部署、SLA 设计 | 怎么同时服务企业和个人用户 |
+
+### 10 — 安全合规
+
+| 文件 | 核心内容 | 解决什么问题 |
+|------|---------|-------------|
+| [`content-safety-framework.md`](./10-compliance/content-safety-framework.md) | 三层安全架构、分级策略、幻觉管控 | 怎么保证 AI 内容安全 |
+| [`privacy-compliance.md`](./10-compliance/privacy-compliance.md) | 个保法/GDPR 解读、数据脱敏、用户控制 | 数据隐私合规怎么做 |
+| [`ai-audit-transparency.md`](./10-compliance/ai-audit-transparency.md) | 审计日志、可解释性、企业合规报告 | 用户问'为什么给这个回答'怎么办 |
+| [`ai-governance-checklist.md`](./10-compliance/ai-governance-checklist.md) | 68 项上线检查清单、P0/P1/P2 分级 | AI 产品上线前必查清单 |
+
+### 11 — 开发流程
+
+| 文件 | 核心内容 | 解决什么问题 |
+|------|---------|-------------|
+| [`product-lifecycle-guide.md`](./11-dev-process/product-lifecycle-guide.md) | 12 周全流程、Go/No-Go 决策、时间线陷阱 | AI 产品怎么从 0 做到 1 |
+| [`prompt-management.md`](./11-dev-process/prompt-management.md) | Prompt 版本控制、测试流程、发布策略 | Prompt 怎么像代码一样管理 |
+| [`pm-mle-collaboration.md`](./11-dev-process/pm-mle-collaboration.md) | 角色职责矩阵、决策权归属、冲突处理 | PM 和工程师怎么分工 |
+| [`model-iteration-playbook.md`](./11-dev-process/model-iteration-playbook.md) | 灰度策略、影响评估、回滚机制、A/B 测试 | 模型升级怎么不翻车 |
+
 ---
 
 ## 🔍 按场景搜索
 
 | 你在做什么 | 推荐阅读 |
 |-----------|---------|
-| **接到一个新 AI 产品需求** | 产品画布 → PRD 模板 → 评估指标 |
+| **接到一个新 AI 产品需求** | 需求验证 → 产品画布 → PRD 模板 → 评估指标 |
 | **要设计一个 Agent** | Agent 画布 → Agent 循环 → 记忆设计 → 权限审批 |
 | **要给模型做评测** | LLM 输出质量 → 工具调用评估 → 评估 Prompts |
 | **要转型做 AI PM** | 成长路线图 → 技能图谱 → 作品集指南 |
 | **要写一份 PRD** | 选对应 PRD 模板 → 看案例 → 用 Prompts |
+| **要定价和算成本** | 定价策略 → Token 经济学 → B端 vs C端设计 |
+| **要上线 AI 产品** | 安全合规清单 → 从 0 到 1 全流程 → 模型升级灰度 |
+| **要管理用户期望** | 用户期望管理 → Demo 技巧 → 内容安全框架 |
 | **要设计多 Agent 系统** | 多 Agent 工作流 → 可观测性 → 案例研究 |
 
 ---
@@ -91,14 +130,18 @@
 |------|:------:|:------:|:-----------:|
 | 01 产品框架 | 4 | 1,494 | 60 min |
 | 02 PRD 模板 | 5 | 1,230 | 50 min |
-| 03 案例研究 | 4 | 2,156 | 90 min |
+| 03 案例研究 | 5 | 2,612 | 110 min |
 | 04 评估体系 | 4 | 1,249 | 50 min |
 | 05 Agent 设计 | 5 | 2,553 | 100 min |
-| 06 职业发展 | 3 | 804 | 30 min |
+| 06 职业发展 | 4 | 1,297 | 50 min |
 | 07 Prompts | 4 | 2,009 | 40 min |
-| **合计** | **29** | **11,495** | **~7 小时** |
+| 08 用户研究 | 3 | 1,542 | 60 min |
+| 09 商业化 | 3 | 2,060 | 80 min |
+| 10 安全合规 | 4 | 1,482 | 60 min |
+| 11 开发流程 | 4 | 1,524 | 60 min |
+| **合计** | **45** | **19,052** | **~12 小时** |
 
 ---
 
-> 📖 **在线文档 (VitePress)**: 即将上线
+> 📖 **在线文档**: https://prodthinkpm.github.io/ai-pm-playbook/
 > 💡 **有问题或建议?** 提交 [Issue](https://github.com/prodthinkpm/ai-pm-playbook/issues)
