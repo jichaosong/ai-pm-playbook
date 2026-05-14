@@ -7,7 +7,6 @@ export default defineConfig({
   base: '/ai-pm-playbook/',
 
   lastUpdated: true,
-  cleanUrls: true,
   ignoreDeadLinks: [
     /^\.\.\//,
     /^\.\//,
