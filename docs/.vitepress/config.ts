@@ -37,7 +37,7 @@ export default defineConfig({
         {
           text: '📡 研究方向',
           items: [
-            { text: 'AI PM 研究路线图', link: '/guide/research/ai-pm-research-roadmap' },
+            { text: '研究路线图', link: '/guide/research/ai-pm-research-roadmap' },
             { text: '大模型与 Harness 的未来轨迹', link: '/guide/research/llm-harness-future-trajectory' },
           ],
         },
