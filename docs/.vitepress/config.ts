@@ -27,7 +27,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '产品框架', link: '/guide/01-framework/ai-product-canvas' },
       { text: 'PRD 模板', link: '/guide/02-prd/ai-saas-prd-template' },
-      { text: '案例研究', link: '/guide/03-cases/openharness-case-study' },
+      { text: '案例研究', link: '/guide/03-cases/appsignal-case-study' },
       { text: 'GitHub', link: 'https://github.com/prodthinkpm/ai-pm-playbook' },
     ],
 
@@ -62,7 +62,8 @@ export default defineConfig({
         {
           text: '03 — 案例研究',
           items: [
-            { text: 'AI 评估平台 (OpenHarness)', link: '/guide/03-cases/openharness-case-study' },
+            { text: '隐私政策解读 (AppSignal)', link: '/guide/03-cases/appsignal-case-study' },
+            { text: '营养数据平台 (OpenFoodData)', link: '/guide/03-cases/openfooddata-case-study' },
             { text: 'Agent 操作系统 (Aurora)', link: '/guide/03-cases/aurora-agentos-case-study' },
             { text: '推理优化 (Falcon)', link: '/guide/03-cases/falcon-case-study' },
             { text: '自动驾驶数据平台', link: '/guide/03-cases/autonomous-driving-data-platform-case-study' },

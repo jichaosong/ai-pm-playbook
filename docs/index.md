@@ -29,7 +29,7 @@ features:
     link: /guide/02-prd/ai-saas-prd-template
   - title: 📊 案例研究
     details: 从 0 到 1 的 AI 产品深度拆解，含架构选型、挑战和教训
-    link: /guide/03-cases/openharness-case-study
+    link: /guide/03-cases/appsignal-case-study
   - title: 📈 AI 评估体系
     details: Agent 指标、LLM 输出质量、工具调用、产品级成功指标
     link: /guide/04-evaluation/agent-evaluation-metrics

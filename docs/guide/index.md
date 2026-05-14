@@ -29,7 +29,8 @@
 
 | 文件 | 行业 | 产品类型 | 核心专题 |
 |------|------|---------|---------|
-| [`openharness-case-study.md`](./03-case-studies/openharness-case-study.md) | AI 基础设施 | 评估平台 | 评估流程、评分系统、数据集管理 |
+| [`appsignal-case-study.md`](./03-case-studies/appsignal-case-study.md) | 隐私合规 | AI 内容平台 | AI 分析 + 人工审核、隐私政策结构化、风险评分 |
+| [`openfooddata-case-study.md`](./03-case-studies/openfooddata-case-study.md) | 营养健康 | 数据平台 | 多源数据聚合、评分方法论、搜索范式、数据质量体系 |
 | [`aurora-agentos-case-study.md`](./03-case-studies/aurora-agentos-case-study.md) | AI 基础设施 | Agent 操作系统 | Agent 编排、记忆架构、可观测性 |
 | [`falcon-case-study.md`](./03-case-studies/falcon-case-study.md) | AI 基础设施 | 推理优化 | 量化策略、部署方案、成本优化 |
 | [`autonomous-driving-data-platform-case-study.md`](./03-case-studies/autonomous-driving-data-platform-case-study.md) | 自动驾驶 | 数据平台 | 数据采集、AI 标注、仿真、版本管理 |

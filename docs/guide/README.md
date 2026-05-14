@@ -28,7 +28,7 @@ sidebar: true
 - 配合 [PRD Prompts](/guide/07-prompts/prd-prompts) 提升效率
 
 ### 第三步：看案例、学评估
-- 研究 [案例拆解](/guide/03-cases/openharness-case-study)
+- 研究 [案例拆解](/guide/03-cases/appsignal-case-study)
 - 建立 [评估体系](/guide/04-evaluation/agent-evaluation-metrics)
 
 ---
