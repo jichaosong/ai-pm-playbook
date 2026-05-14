@@ -21,7 +21,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: '/ai-pm-playbook/favicon.svg',
+    logo: '/favicon.svg',
 
     nav: [
       { text: '首页', link: '/' },
