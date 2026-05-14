@@ -16,18 +16,18 @@ export default defineConfig({
   ],
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.svg' }],
+    ['link', { rel: 'icon', href: '/ai-pm-playbook/favicon.svg' }],
     ['meta', { name: 'theme-color', content: '#8A2BE2' }],
   ],
 
   themeConfig: {
-    logo: '/favicon.svg',
+    logo: '/ai-pm-playbook/favicon.svg',
 
     nav: [
       { text: '首页', link: '/' },
-      { text: '产品框架', link: '/guide/01-framework/' },
-      { text: 'PRD 模板', link: '/guide/02-prd/' },
-      { text: '案例研究', link: '/guide/03-cases/' },
+      { text: '产品框架', link: '/guide/01-framework/ai-product-canvas' },
+      { text: 'PRD 模板', link: '/guide/02-prd/ai-saas-prd-template' },
+      { text: '案例研究', link: '/guide/03-cases/openharness-case-study' },
       { text: 'GitHub', link: 'https://github.com/prodthinkpm/ai-pm-playbook' },
     ],
 
