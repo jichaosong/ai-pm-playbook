@@ -11,6 +11,7 @@
 | 文件 | 核心内容 | 适用场景 |
 |------|---------|---------|
 | [AI PM 研究路线图](./research/ai-pm-research-roadmap) | 10 个研究方向地图、3 个 P0 项目计划、工具链与合规清单 | 确定研究优先级、启动研究项目 |
+| [大模型与 Harness 的未来轨迹](./research/llm-harness-future-trajectory) | 三层 harness 分类、BigModel vs BigHarness 争论裁决、混合架构方案与行动建议 | 理解 agent 运行时趋势、制定技术战略 |
 
 ### 01 — AI 产品框架
 
