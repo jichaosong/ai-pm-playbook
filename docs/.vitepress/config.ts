@@ -35,6 +35,12 @@ export default defineConfig({
           ],
         },
         {
+          text: '📡 研究方向',
+          items: [
+            { text: '研究路线图', link: '/guide/research/ai-pm-research-roadmap' },
+          ],
+        },
+        {
           text: '01 — AI 产品框架',
           items: [
             { text: 'AI 产品画布', link: '/guide/01-framework/ai-product-canvas' },
