@@ -49,6 +49,7 @@
 | 文件 | 核心概念 | 关键框架/模式 |
 |------|---------|--------------|
 | [`agent-loop.md`](./05-agent-product-design/agent-loop.md) | 感知-推理-行动循环 | 单轮/多轮/分层拓扑、状态管理 |
+| [`ai-tool-taxonomy-and-agent-loop.md`](./05-agent-product-design/ai-tool-taxonomy-and-agent-loop.md) | AI 工具形态分类与 Agent Loop 升级路径 | 三层结构、9 类工具、价值判断、Agent Loop 设计要点 |
 | [`memory-design.md`](./05-agent-product-design/memory-design.md) | 短期/中期/长期记忆 | 检索策略、上下文压缩、存储选型 |
 | [`permission-and-approval.md`](./05-agent-product-design/permission-and-approval.md) | RBAC/ABAC/ReBAC | 审批引擎、授权模式、交互设计 |
 | [`multi-agent-workflow.md`](./05-agent-product-design/multi-agent-workflow.md) | 层级式/管道式/市场式 | 通信协议、任务分配、冲突解决 |
@@ -132,14 +133,14 @@
 | 02 PRD 模板 | 5 | 1,230 | 50 min |
 | 03 案例研究 | 5 | 2,612 | 110 min |
 | 04 评估体系 | 4 | 1,249 | 50 min |
-| 05 Agent 设计 | 5 | 2,553 | 100 min |
+| 05 Agent 设计 | 6 | 3,599 | 140 min |
 | 06 职业发展 | 4 | 1,297 | 50 min |
 | 07 Prompts | 4 | 2,009 | 40 min |
 | 08 用户研究 | 3 | 1,542 | 60 min |
 | 09 商业化 | 3 | 2,060 | 80 min |
 | 10 安全合规 | 4 | 1,482 | 60 min |
 | 11 开发流程 | 4 | 1,524 | 60 min |
-| **合计** | **45** | **19,052** | **~12 小时** |
+| **合计** | **46** | **20,098** | **~13 小时** |
 
 ---
 

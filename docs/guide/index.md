@@ -49,6 +49,7 @@
 | 文件 | 核心概念 |
 |------|---------|
 | [Agent 循环](./05-agent-design/agent-loop) | 感知-推理-行动循环 |
+| [AI 工具分类与 Agent Loop](./05-agent-design/ai-tool-taxonomy-and-agent-loop) | 三层结构、9 类工具、价值判断、Agent Loop 升级路径 |
 | [记忆设计](./05-agent-design/memory-design) | 短期/中期/长期记忆 |
 | [权限与审批](./05-agent-design/permission-and-approval) | RBAC/ABAC/ReBAC |
 | [多 Agent 工作流](./05-agent-design/multi-agent-workflow) | 层级式/管道式/市场式 |

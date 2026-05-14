@@ -76,6 +76,7 @@ export default defineConfig({
           text: '05 — Agent 产品设计',
           items: [
             { text: 'Agent 循环', link: '/guide/05-agent-design/agent-loop' },
+            { text: 'AI 工具分类与 Agent Loop', link: '/guide/05-agent-design/ai-tool-taxonomy-and-agent-loop' },
             { text: '记忆设计', link: '/guide/05-agent-design/memory-design' },
             { text: '权限与审批', link: '/guide/05-agent-design/permission-and-approval' },
             { text: '多 Agent 工作流', link: '/guide/05-agent-design/multi-agent-workflow' },

@@ -29,7 +29,7 @@
 
 ## 📖 概述
 
-**AI PM Playbook** 是一份面向 AI 时代产品经理的实战知识库，涵盖 11 大模块、45 个文档：
+**AI PM Playbook** 是一份面向 AI 时代产品经理的实战知识库，涵盖 11 大模块、46 个文档：
 
 ### 📐 [01 — AI 产品框架](./01-ai-product-framework/)
 分析 AI 产品的结构化方法论：
@@ -64,6 +64,7 @@
 ### 🏗️ [05 — Agent 产品设计](./05-agent-product-design/)
 下一代 AI 产品的核心：
 - [`agent-loop.md`](./05-agent-product-design/agent-loop.md)
+- [`ai-tool-taxonomy-and-agent-loop.md`](./05-agent-product-design/ai-tool-taxonomy-and-agent-loop.md)
 - [`memory-design.md`](./05-agent-product-design/memory-design.md)
 - [`permission-and-approval.md`](./05-agent-product-design/permission-and-approval.md)
 - [`multi-agent-workflow.md`](./05-agent-product-design/multi-agent-workflow.md)
@@ -132,7 +133,7 @@ AI 产品的开发迭代方法论：
 | 02 PRD 模板 | 5 | ⭐ | 写文档时 |
 | 03 案例研究 | 5 | ⭐⭐⭐ | 决策参考 |
 | 04 评估体系 | 4 | ⭐⭐ | 上线前后 |
-| 05 Agent 设计 | 5 | ⭐⭐⭐ | 专项深挖 |
+| 05 Agent 设计 | 6 | ⭐⭐⭐ | 专项深挖 |
 | 06 职业发展 | 4 | ⭐ | 规划阶段 |
 | 07 Prompts | 4 | ⭐ | 日常使用 |
 | 08 用户研究 | 3 | ⭐⭐ | 需求验证 |
