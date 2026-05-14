@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'AI PM Playbook',
   description: '从产品经理到 AI 产品架构师的实战指南',
   lang: 'zh-CN',
+  base: '/ai-pm-playbook/',
 
   lastUpdated: true,
   ignoreDeadLinks: [
