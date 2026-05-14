@@ -7,13 +7,7 @@ export default defineConfig({
   base: '/ai-pm-playbook/',
 
   lastUpdated: true,
-  ignoreDeadLinks: [
-    /^\.\.\//,
-    /^\.\//,
-    /\/INDEX\.md$/,
-    /README\.md/,
-    /ai-pm-playbook/,
-  ],
+  ignoreDeadLinks: 'localhostLinks',
 
   head: [
     ['link', { rel: 'icon', href: '/ai-pm-playbook/favicon.svg' }],

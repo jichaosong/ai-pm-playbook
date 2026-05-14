@@ -1,6 +1,6 @@
 # AI PM Playbook 完善计划
 
-## 现状：30 个文档 / 7 模块
+## 现状：45 个文档 / 11 模块
 框架、PRD 模板、评估、Agent 设计、职业发展、Prompts — 这些"技术产品化"层面扎实
 
 ## 缺口（按优先级）
@@ -14,7 +14,7 @@
 | | expectation-management.md | 管理用户对 AI 的不合理预期（能力边界披露、置信度提示、回退兜底） |
 | **09 商业化** | pricing-strategies.md | AI 产品定价模型（按 token / 席位 / 任务 / 混合）及选型决策 |
 | | token-economics.md | 推理成本结构、免费层设计、限速策略、多模型分级 |
-| | enterprise-vs-consumer.md | 企业 vs 消费级 AI 产品的功能差异、定制化、私有部署 |
+| | b2b-vs-consumer.md | 企业 vs 消费级 AI 产品的功能差异、定制化、私有部署 |
 | **10 安全合规** | content-safety-framework.md | 内容安全策略：过滤、分级、兜底、免责的产品设计 |
 | | privacy-compliance.md | 个保法 / GDPR 合规清单、数据使用披露、退出机制 |
 | | ai-audit-transparency.md | 审计追踪、可解释性、客户合规需求的产品方案 |
@@ -29,4 +29,4 @@
 |------|------|---------|
 | 06-career 新增 | pm-toolkit.md | 立项 checklist、CEO 沟通框架、AI Demo 技巧 |
 
-## 总计新增：14 个文档，~5,000 行
+## 总计新增：14 个文档，~5,000 行（已完成）
