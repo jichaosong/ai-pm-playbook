@@ -1,6 +1,6 @@
 # AI PM 成长路线图：从入门到专家（L1-L4）
 
-> 本文档为 AI 产品经理提供了一条清晰的成长路径，涵盖四个阶段所需的技能、项目经验、学习资源和推荐阅读。
+> **2026-05 更新版**：AI PM 的能力重心已经从“会写 Prompt、会接模型 API”升级为“能设计 Agent 工作流、评估体系、成本模型、安全治理和商业化闭环”。本文提供从 L1 到 L4 的成长路径、项目经验和学习资源。
 
 ---
 
@@ -11,151 +11,139 @@
 - [L3：资深 — 高级 AI PM / 产品 Lead](#l3资深--高级-ai-pm--产品-lead)
 - [L4：专家 — AI 产品总监 / 首席 PM](#l4专家--ai-产品总监--首席-pm)
 - [成长时间线参考](#成长时间线参考)
-- [附录：经典阅读书单](#附录经典阅读书单)
+- [2026 AI PM 必备能力变化](#2026-ai-pm-必备能力变化)
+- [附录：学习资源](#附录学习资源)
 
 ---
 
 ## L1：入门 — AI PM 助理 / 初级 PM
 
 ### 目标
-理解 AI 产品的基本工作流，能在指导下完成简单的需求文档和产品功能定义。
+
+理解 AI 产品的基本工作流，能在指导下完成简单需求分析、竞品研究、Prompt 原型、评估样例整理和 PRD 编写。
 
 ### 核心技能
 
 | 技能类别 | 具体要求 |
 |---------|---------|
-| **AI 基础** | 了解机器学习/深度学习基本概念；知道监督学习、无监督学习、强化学习的区别；理解训练集/验证集/测试集 |
-| **LLM 入门** | 理解 Transformer 基本架构、Token 概念、Prompt 是什么；会使用 ChatGPT/Claude 等主流产品 |
-| **产品基础** | 能写出标准的 PRD；会画功能流程图和原型图；了解敏捷开发流程 |
-| **数据分析** | 能用 SQL 做基础查询；理解 A/B 测试的基本原理；会看准确率/召回率等指标 |
+| AI 基础 | 理解 LLM、Token、上下文窗口、RAG、Embedding、Agent 的基本概念 |
+| Prompt 入门 | 能写清晰指令、输出格式、few-shot 示例，知道 Prompt 不是万能方案 |
+| 产品基础 | 能写 PRD、用户故事、流程图、验收标准 |
+| 数据意识 | 知道准确率、召回率、任务完成率、满意度、幻觉率等指标 |
+| 工具体验 | 熟练使用 ChatGPT、Claude、Gemini、Cursor、Copilot 等主流 AI 工具 |
 
 ### 项目经验
-- 参与 1-2 个 AI 功能的需求分析和上线流程
-- 独立完成一个简单 AI 功能（如智能搜索、推荐列表）的 PRD
-- 与算法团队合作完成一次模型评估
-- 整理竞品 AI 功能分析报告
 
-### 学习资源
-- **课程**：Coursera「AI For Everyone」(Andrew Ng) — 2 周可完成
-- **课程**：Prompt Engineering Guide (DAIR.AI)
-- **书籍**：《人工智能产品经理》- 朱鹏
-- **工具**：Figma（原型）、Notion（文档）、SQL（查询）
+- 参与 1-2 个 AI 功能的需求分析和上线流程；
+- 整理 30-100 条真实评估样例；
+- 完成一个小型 AI 功能 PRD，例如智能摘要、客服问答、文档解析；
+- 参与一次 Prompt 优化和人工评估；
+- 输出一份竞品 AI 功能拆解报告。
 
-### 建议阅读
-- 《机器学习实战：基于 Scikit-Learn、Keras 和 TensorFlow》- 前 5 章
-- 李宏毅《机器学习》课程前 6 讲（YouTube）
-- OpenAI Cookbook — 常见 API 使用模式
+### 典型产出物
+
+- AI 功能 PRD；
+- Prompt v1 + 版本记录；
+- 评估样例表；
+- 竞品分析；
+- 上线 FAQ 和用户反馈汇总。
 
 ---
 
 ## L2：进阶 — 独立 AI PM
 
 ### 目标
-能独立负责一个 AI 产品模块或中小型 AI 产品，深入参与模型选型、Prompt 设计和效果评估。
+
+能独立负责一个 AI 产品模块，完成从场景定义、模型/架构选型、评估体系、灰度上线到数据复盘的闭环。
 
 ### 核心技能
 
 | 技能类别 | 具体要求 |
 |---------|---------|
-| **LLM 深入** | 理解 RAG、Fine-tuning、Prompt Chain 等工程模式；能设计多轮对话和 Agent 工作流 |
-| **模型评估** | 能设计评估数据集和评估指标；理解 BLEU/ROUGE 等 NLP 指标和 LLM-as-Judge 方法 |
-| **提示词工程** | 掌握 System Prompt、Few-shot、Chain-of-Thought 编写；能设计复杂的 Prompt 模板 |
-| **技术沟通** | 能向算法工程师准确传达产品需求；能与数据标注团队协作制定标注规范 |
-| **产品指标** | 能定义 AI 产品的核心指标（用户留存、调用成功率、幻觉率等） |
+| 架构理解 | 理解 RAG、Fine-tuning、工具调用、Agent loop、MCP/连接器、沙箱的适用场景 |
+| 模型选型 | 能按质量、延迟、成本、上下文、工具调用、合规做模型对比 |
+| 评估体系 | 能设计 golden dataset、人工评分标准、LLM-as-Judge、回归测试 |
+| 成本意识 | 能估算 token、工具调用、Agent run、缓存和重试成本 |
+| 风险意识 | 理解 Prompt 注入、幻觉、敏感数据、工具越权和内容安全 |
+| 跨团队协作 | 能和工程、算法、安全、法务、运营推进上线 |
 
 ### 项目经验
-- 主导一个 AI Agent 或 RAG 产品的从 0 到 1
-- 完成至少一次模型选型对比（如 GPT-4 vs Claude vs 开源模型）
-- 设计并执行一次 Prompt 优化实验，产出可量化的改进效果
-- 与工程团队协作完成产品上线后的数据回收和指标监控
 
-### 学习资源
-- **课程**：DeepLearning.AI「Building Systems with ChatGPT」
-- **课程**：LangChain 官方教程 + 动手实践
-- **书籍**：《Prompt Engineering for LLMs》- Andrew Ng
-- **论文**：Attention Is All You Need, RAG 原论文
-- **社区**：Hugging Face 模型库、LangChain Discord
+- 独立主导一个 RAG / Agent / AI SaaS 功能从 0 到 1；
+- 完成一次模型选型报告，不只比较模型名，而是比较能力层级和单位经济学；
+- 建立一个包含 100-300 条样例的评估集；
+- 推动一次灰度发布，观察质量、延迟、成本和反馈；
+- 定义 AI 功能的用户反馈闭环。
 
-### 建议阅读
-- 《Building LLM Apps》- Valentina Alto
-- Simon Willison 的博客（关于 LLM 产品实践）
-- Lilian Weng 的「LLM Powered Autonomous Agents」
-- Anthropic 的 Prompt Engineering 最佳实践
+### 典型产出物
+
+- 模型与架构选型报告；
+- 评估体系设计；
+- 成本测算表；
+- 灰度计划；
+- 风险与回滚方案。
 
 ---
 
 ## L3：资深 — 高级 AI PM / 产品 Lead
 
 ### 目标
-能负责多条产品或一个大型 AI 产品的战略定义，能判断技术可行性并制定产品技术路线。
+
+能负责一条 AI 产品线或复杂 AI 平台，建立方法论、指标体系和组织协作机制，推动多团队规模化交付。
 
 ### 核心技能
 
 | 技能类别 | 具体要求 |
 |---------|---------|
-| **技术深度** | 理解模型成本（训练/推理）、延迟优化、蒸馏、量化等生产化问题；能评估技术方案的 ROI |
-| **战略思维** | 能制定 6-12 个月的产品路线图；能判断 AI 能力边界并做技术预判 |
-| **多团队协作** | 管理跨职能团队（算法、工程、设计、数据标注）；推动复杂项目落地 |
-| **数据驱动** | 搭建产品指标体系和分析体系；从数据中发现问题并驱动迭代 |
-| **风险管理** | 识别 AI 产品的安全风险、伦理问题、合规要求；制定缓解策略 |
+| 系统设计 | 能设计 RAG、Agent、模型网关、评估平台、可观测性和成本治理 |
+| 技术判断 | 理解推理优化、缓存、批处理、模型路由、私有部署、数据驻留 |
+| 平台思维 | 能把单功能经验抽象为平台能力和团队规范 |
+| 商业化 | 能设计订阅、用量、credits、企业版、安全合规溢价 |
+| 治理能力 | 能建立 AI 安全、隐私、审计、模型升级和事故响应机制 |
+| 组织影响 | 能推动 PM、MLE、工程、安全、法务形成统一流程 |
 
 ### 项目经验
-- 负责一个面向终端用户的 AI 产品的完整生命周期
-- 主导一次重大的技术栈切换（如从闭源模型切换到开源模型）
-- 搭建产品评估体系和自动化评估 pipeline
-- 带领团队完成一次 AI 产品的出海或合规审计
 
-### 学习资源
-- **课程**：Stanford CS324「Large Language Models」
-- **课程**：Wharton「AI for Business」专项课程
-- **书籍**：《The Age of AI》- Kissinger
-- **论文**：每周跟进 arXiv 上的 LLM/Agent 相关论文
-- **社区**：AI PM 社群（PMI、Mind the Product）
+- 负责一个面向真实用户的 AI 产品完整生命周期；
+- 搭建模型评估或 Agent trace 平台；
+- 主导一次重大模型升级、供应商切换或架构重构；
+- 设计 AI 成本和用量治理体系；
+- 支持企业客户的安全、合规、采购和部署需求。
 
-### 建议阅读
-- 《Hundred-Page Machine Learning Book》- Andriy Burkov
-- 《Building Machine Learning Pipelines》- Hannes Hapke
-- Chip Huyen 的「MLOps 清单」
-- Anthropic 和 OpenAI 的安全与对齐研究
-- AI 透明度报告（如 OpenAI System Card、Claude Model Card）
+### 典型产出物
+
+- 产品线 Roadmap；
+- AI 平台能力地图；
+- 模型升级 playbook；
+- 企业版商业化方案；
+- AI 治理清单和安全评估流程。
 
 ---
 
 ## L4：专家 — AI 产品总监 / 首席 PM
 
 ### 目标
-能定义公司级别的 AI 产品战略，影响行业标准，在技术和商业之间架起桥梁。
+
+能定义公司级 AI 产品战略，判断技术与商业周期，构建组织能力，并对行业方法论产生影响。
 
 ### 核心技能
 
 | 技能类别 | 具体要求 |
 |---------|---------|
-| **行业洞察** | 深刻理解 AI 行业趋势和竞争格局；能预判 2-3 年的技术方向 |
-| **商业决策** | 制定 AI 产品的商业模式和定价策略；评估 AI 投资的 ROI |
-| **组织建设** | 搭建 AI PM 团队并建立人才培养体系；制定产品管理流程和标准 |
-| **影响力** | 对内推动组织 AI 化转型；对外通过演讲/文章/社区建立个人品牌 |
-| **伦理与治理** | 制定 AI 产品伦理准则和治理框架；参与行业标准和政策讨论 |
+| 战略判断 | 能预判 1-3 年 AI 应用、Agent、模型平台、治理和商业化趋势 |
+| 投资决策 | 能评估自研、采购、开源、私有部署、合作生态的 ROI |
+| 组织建设 | 能搭建 AI PM、评估、AI 平台、数据治理和安全治理机制 |
+| 商业模式 | 能设计从个人订阅到企业合约、用量承诺、专属容量的商业体系 |
+| 外部影响 | 能通过文章、演讲、开源、标准参与建立行业影响力 |
+| 责任治理 | 能建立 AI 伦理、合规、风险和事故响应的管理框架 |
 
 ### 项目经验
-- 从 0 到 1 打造一个百万用户级别的 AI 产品
-- 主导公司级 AI 平台或中台战略的规划与落地
-- 参与或主导 AI 行业标准制定
-- 带领 PM 团队完成多个 AI 产品的商业化
 
-### 学习资源
-- **课程**：MIT「AI Strategy」高管课程
-- **课程**：Stanford 商学院「AI & Business Strategy」
-- **书籍**：《The Master Algorithm》- Pedro Domingos
-- **报告**：Gartner AI Hype Cycle、State of AI Report
-- **论文**：Persistent 跟进 Nature/Science 上 AI 政策与伦理相关文章
-
-### 建议阅读
-- 《AI 2041》- 李开复
-- 《The Alignment Problem》- Brian Christian
-- 《Rebooting AI》- Gary Marcus
-- Andreessen Horowitz 的 AI 相关博客
-- Sequoia 的 AI 市场分析报告
-- 各国 AI 监管政策（EU AI Act、中国生成式 AI 管理办法）
+- 主导公司级 AI 产品战略；
+- 打造百万级用户或千万级营收的 AI 产品；
+- 建立跨组织 AI 平台或中台；
+- 参与行业标准、政策、生态合作或开源项目；
+- 带领团队完成多条 AI 产品线商业化。
 
 ---
 
@@ -163,34 +151,72 @@
 
 | 阶段 | 典型年限 | 关键里程碑 |
 |------|---------|-----------|
-| L1 → L2 | 1-2 年 | 独立完成第一个 AI 产品功能上线 |
-| L2 → L3 | 2-3 年 | 主导一个完整的 AI 产品从 0 到 1 |
-| L3 → L4 | 3-5 年 | 管理 PM 团队，制定产品线战略 |
-| L4 以上 | 5+ 年 | 影响行业方向，建立个人品牌 |
+| L1 → L2 | 1-2 年 | 独立完成第一个 AI 功能上线 |
+| L2 → L3 | 2-3 年 | 主导一个完整 AI 产品 / 模块从 0 到 1 |
+| L3 → L4 | 3-5 年 | 负责 AI 产品线、平台或团队 |
+| L4+ | 5 年以上 | 形成公司级战略和行业影响力 |
 
-> ⚠️ 注意：以上时间线仅供参考。AI 行业发展迅速，实际路径因人而异，建议根据自己的背景和机会灵活调整。
+> 注意：AI 行业变化快，成长速度取决于项目密度、技术理解和跨团队影响力，不完全取决于年限。
 
 ---
 
-## 附录：经典阅读书单
+## 2026 AI PM 必备能力变化
 
-### 必读入门
-1. 《人工智能产品经理》— 朱鹏
-2. 《AI 产品经理：方法与实战》— 王树义
-3. 《Machine Learning for Dummies》— John Paul Mueller
+| 过去更重要 | 现在更重要 |
+|------------|------------|
+| 会写 Prompt | 会设计评估、数据和反馈闭环 |
+| 会接模型 API | 会设计模型路由和成本治理 |
+| 会做聊天产品 | 会做 Agent 工作流和工具权限 |
+| 关注回答质量 | 同时关注质量、成本、延迟、安全、合规 |
+| 只看模型能力 | 关注模型 + harness + workflow + governance |
+| 只做功能上线 | 做灰度、回滚、审计和持续运营 |
 
-### 进阶必读
-1. 《Building LLM Apps》— Valentina Alto
-2. 《Designing Machine Learning Systems》— Chip Huyen
-3. 《Natural Language Processing with Transformers》— Lewis Tunstall
+### AI PM 的五个长期护城河
 
-### 高级阅读
-1. 《Speech and Language Processing》— Jurafsky & Martin（在线免费）
-2. 《Deep Learning》— Goodfellow, Bengio, Courville
-3. 《The Alignment Problem》— Brian Christian
+1. **场景洞察**：知道哪些问题值得用 AI 解决；
+2. **系统思维**：把模型、数据、工具、流程、权限连成系统；
+3. **评估能力**：能用数据判断 AI 是否真的变好；
+4. **商业意识**：能让 AI 功能在成本上可持续；
+5. **治理意识**：能让 AI 产品安全、合规、可控地规模化。
+
+---
+
+## 附录：学习资源
+
+### 入门
+
+- DeepLearning.AI — AI For Everyone；
+- OpenAI Cookbook；
+- Anthropic Prompt Engineering Guide；
+- Google Machine Learning Crash Course；
+- Prompt Engineering Guide by DAIR.AI。
+
+### 进阶
+
+- Designing Machine Learning Systems — Chip Huyen；
+- Building LLM Apps / LLM 应用工程相关资料；
+- LangChain / LangGraph 文档；
+- LlamaIndex 文档；
+- RAGAS / DeepEval / LangSmith / Weights & Biases Weave。
+
+### Agent 与治理
+
+- Model Context Protocol 文档；
+- OWASP Top 10 for LLM Applications；
+- NIST AI Risk Management Framework；
+- EU AI Act 官方信息；
+- 各主流模型供应商的 model card、system card、安全报告和 API 文档。
 
 ### 持续跟踪
-- [State of AI Report](https://www.stateof.ai/)
-- [Andreessen Horowitz AI Blog](https://a16z.com/ai/)
-- [Import AI Newsletter](https://importai.substack.com/)
-- [The Batch (Andrew Ng)](https://www.deeplearning.ai/the-batch/)
+
+- State of AI Report；
+- a16z AI；
+- Sequoia AI Ascent / AI market analysis；
+- The Batch；
+- Simon Willison Blog；
+- Lilian Weng Blog；
+- Import AI Newsletter。
+
+---
+
+> **结语**：AI PM 的核心不是“更懂模型”，而是更懂如何把不确定的模型能力转化为确定的用户价值、业务结果和可治理的产品系统。
