@@ -73,12 +73,13 @@
 
 ### 07 — 提示词工程
 
-| 文件 | 提示词数量 | 适用场景 |
-|------|:---------:|---------|
-| [PRD Prompts](./07-prompts/prd-prompts) | 8 个 | 写各类 AI 产品的 PRD |
-| [用户研究 Prompts](./07-prompts/user-research-prompts) | 8 个 | 用户访谈、问卷、竞品分析 |
-| [路线图 Prompts](./07-prompts/roadmap-prompts) | 8 个 | 路线图规划、OKR 拆解 |
-| [评估 Prompts](./07-prompts/evaluation-prompts) | 10 个 | LLM 评估、Agent 评估、A/B 测试 |
+| 文件 | 核心内容 | 适用场景 |
+|------|---------|---------|
+| [ChatGPT Web 产品落地手册](./07-prompts/chatgpt-web-zero-to-one-product-playbook) | 用 ChatGPT Web 从机会发现、用户研究、MVP、PRD、原型、研发拆解到上线复盘 | 把 ChatGPT 当作产品经理工作台 |
+| [PRD Prompts](./07-prompts/prd-prompts) | 8 个 PRD 写作 Prompt | 写各类 AI 产品的 PRD |
+| [用户研究 Prompts](./07-prompts/user-research-prompts) | 8 个用户研究 Prompt | 用户访谈、问卷、竞品分析 |
+| [路线图 Prompts](./07-prompts/roadmap-prompts) | 8 个路线图 Prompt | 路线图规划、OKR 拆解 |
+| [评估 Prompts](./07-prompts/evaluation-prompts) | 10 个评估 Prompt | LLM 评估、Agent 评估、A/B 测试 |
 
 ### 08 — 用户研究
 
@@ -120,6 +121,7 @@
 
 | 你在做什么 | 推荐阅读 |
 |-----------|---------|
+| **想用 ChatGPT 从 0 做产品** | ChatGPT Web 产品落地手册 → 从 0 到 1 全流程 → PRD Prompts |
 | **接到一个新 AI 产品需求** | 需求验证 → 产品画布 → PRD 模板 → 评估指标 |
 | **要设计一个 Agent** | Agent 画布 → Agent 循环 → 记忆设计 → 权限审批 |
 | **要给模型做评测** | LLM 输出质量 → 工具调用评估 → 评估 Prompts |

@@ -102,6 +102,7 @@ export default defineConfig({
         {
           text: '07 — 提示词工程',
           items: [
+            { text: 'ChatGPT Web 产品落地手册', link: '/guide/07-prompts/chatgpt-web-zero-to-one-product-playbook' },
             { text: 'PRD Prompts', link: '/guide/07-prompts/prd-prompts' },
             { text: '用户研究 Prompts', link: '/guide/07-prompts/user-research-prompts' },
             { text: '路线图 Prompts', link: '/guide/07-prompts/roadmap-prompts' },

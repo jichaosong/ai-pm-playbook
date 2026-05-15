@@ -14,6 +14,9 @@ hero:
       text: 🚀 开始阅读
       link: /guide/
     - theme: alt
+      text: 🧰 ChatGPT Web 产品落地手册
+      link: /guide/07-prompts/chatgpt-web-zero-to-one-product-playbook
+    - theme: alt
       text: 📖 查看 INDEX
       link: /guide/index
     - theme: alt
@@ -21,6 +24,9 @@ hero:
       link: https://github.com/prodthinkpm/ai-pm-playbook
 
 features:
+  - title: 🧰 ChatGPT Web 产品落地手册
+    details: 从机会发现、用户研究、竞品分析、MVP、PRD、原型到上线复盘，把 ChatGPT Web 变成产品工作台
+    link: /guide/07-prompts/chatgpt-web-zero-to-one-product-playbook
   - title: 📐 AI 产品框架
     details: AI / Agent / RAG / Human-in-the-Loop 四种产品画布，结构化分析思路
     link: /guide/01-framework/ai-product-canvas
@@ -52,9 +58,6 @@ features:
     details: 从 0 到 1 全流程、Prompt 工程管理、PM与工程师协作、模型升级灰度
     link: /guide/11-dev-process/product-lifecycle-guide
   - title: ✨ 提示词工程
-    details: 写 PRD / 用户研究 / 路线图 / 评估的专属 Prompts
-    link: /guide/07-prompts/prd-prompts
-  - title: 💡 Awesome AI Product Ideas
-    details: 85+ 天马行空的 AI 产品创意，带场景分析和可行性评估
-    link: https://github.com/prodthinkpm/awesome-ai-product-ideas
+    details: ChatGPT Web 工作台、PRD / 用户研究 / 路线图 / 评估的专属 Prompts
+    link: /guide/07-prompts/chatgpt-web-zero-to-one-product-playbook
 ---

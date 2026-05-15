@@ -21,6 +21,7 @@
 | 🧠 **设计 AI Agent** | [Agent 产品画布](./docs/guide/01-framework/agent-product-canvas.md) → [Agent 循环](./docs/guide/05-agent-design/agent-loop.md) |
 | 📊 **关注评估** | [Agent 评估指标](./docs/guide/04-evaluation/agent-evaluation-metrics.md) → [评估 Prompts](./docs/guide/07-prompts/evaluation-prompts.md) |
 | 📖 **看案例** | [案例研究](./docs/guide/03-cases/appsignal-case-study.md) → [PRD 模板](./docs/guide/02-prd/ai-saas-prd-template.md) |
+| 🧰 **想用 ChatGPT 做产品落地** | [ChatGPT Web 产品落地手册](./docs/guide/07-prompts/chatgpt-web-zero-to-one-product-playbook.md) → [从 0 到 1 全流程](./docs/guide/11-dev-process/product-lifecycle-guide.md) |
 | 💰 **要定价 / 控成本** | [AI 产品定价策略](./docs/guide/09-monetization/pricing-strategies.md) → [Token 经济学](./docs/guide/09-monetization/token-economics.md) |
 
 > 💡 **完整索引见 [`docs/guide/index.md`](./docs/guide/index.md)**
@@ -45,7 +46,7 @@
 | 04 评估体系 | [Agent 评估指标](./docs/guide/04-evaluation/agent-evaluation-metrics.md)、[LLM 输出质量](./docs/guide/04-evaluation/llm-output-quality.md)、[工具调用成功率](./docs/guide/04-evaluation/tool-call-success-rate.md)、[产品成功指标](./docs/guide/04-evaluation/product-success-metrics.md) | 上线前后 |
 | 05 Agent 设计 | [Agent 循环](./docs/guide/05-agent-design/agent-loop.md)、[AI 工具分类](./docs/guide/05-agent-design/ai-tool-taxonomy-and-agent-loop.md)、[记忆设计](./docs/guide/05-agent-design/memory-design.md)、[权限审批](./docs/guide/05-agent-design/permission-and-approval.md)、[多 Agent 工作流](./docs/guide/05-agent-design/multi-agent-workflow.md)、[可观测性](./docs/guide/05-agent-design/observability.md) | Agent 产品专项 |
 | 06 职业发展 | [成长路线图](./docs/guide/06-career/ai-pm-roadmap.md)、[技能图谱](./docs/guide/06-career/ai-pm-skill-map.md)、[作品集指南](./docs/guide/06-career/portfolio-building-guide.md)、[PM 工具包](./docs/guide/06-career/pm-toolkit.md) | 个人成长 |
-| 07 Prompts | [PRD Prompts](./docs/guide/07-prompts/prd-prompts.md)、[用户研究 Prompts](./docs/guide/07-prompts/user-research-prompts.md)、[路线图 Prompts](./docs/guide/07-prompts/roadmap-prompts.md)、[评估 Prompts](./docs/guide/07-prompts/evaluation-prompts.md) | 日常提效 |
+| 07 Prompts | [ChatGPT Web 产品落地手册](./docs/guide/07-prompts/chatgpt-web-zero-to-one-product-playbook.md)、[PRD Prompts](./docs/guide/07-prompts/prd-prompts.md)、[用户研究 Prompts](./docs/guide/07-prompts/user-research-prompts.md)、[路线图 Prompts](./docs/guide/07-prompts/roadmap-prompts.md)、[评估 Prompts](./docs/guide/07-prompts/evaluation-prompts.md) | 日常提效 |
 | 08 用户研究 | [用户研究方法论](./docs/guide/08-user-research/user-research-methods.md)、[AI 需求验证](./docs/guide/08-user-research/demand-validation.md)、[用户期望管理](./docs/guide/08-user-research/expectation-management.md) | 需求验证 |
 | 09 商业化 | [定价策略](./docs/guide/09-monetization/pricing-strategies.md)、[Token 经济学](./docs/guide/09-monetization/token-economics.md)、[B 端 vs C 端](./docs/guide/09-monetization/b2b-vs-consumer.md) | 定价与成本 |
 | 10 安全合规 | [内容安全](./docs/guide/10-compliance/content-safety-framework.md)、[数据隐私](./docs/guide/10-compliance/privacy-compliance.md)、[审计透明度](./docs/guide/10-compliance/ai-audit-transparency.md)、[治理清单](./docs/guide/10-compliance/ai-governance-checklist.md) | 上线前审核 |
