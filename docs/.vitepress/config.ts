@@ -39,6 +39,7 @@ export default defineConfig({
           items: [
             { text: 'AI产品经理研究与分析', link: '/guide/research/ai-pm-research-roadmap' },
             { text: '大模型与 Harness 的未来轨迹', link: '/guide/research/llm-harness-future-trajectory' },
+            { text: 'Harness Engineering 入门', link: '/guide/research/harness-engineering-introduction' },
           ],
         },
         {
