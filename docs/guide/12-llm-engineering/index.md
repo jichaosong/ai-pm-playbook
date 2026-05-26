@@ -64,7 +64,7 @@
 
 | 课程 | 核心问题 |
 |------|---------|
-| 第 4 课：Transformer 和 Attention | 为什么现代 LLM 这么强？ |
+| [第 4 课：Transformer 和 Attention](./04-transformer-attention) | 为什么现代 LLM 这么强？ |
 | 第 5 课：参数、训练和推理 | 模型里面的“参数”到底是什么？ |
 | 第 6 课：开源模型 vs 闭源模型 | 什么时候用开源，什么时候用闭源？ |
 
